@@ -78,8 +78,8 @@ console.log(sum);
 const arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
 let sum = 0;
 for (var i = 0; i < arr.length; i++) {
-	for (var x = 0; x < arr[i].length; x++) {
-  		for (var k = 0; k < arr[i][x].length; k++) {
+	for (let x = 0; x < arr[i].length; x++) {
+  		for (let k = 0; k < arr[i][x].length; k++) {
 			sum += arr[i][x][k];
    		};
 	};
